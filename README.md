@@ -1,40 +1,37 @@
-# 🌱 Nature Markdown Reference
+# Чарівний Світ Природи 
 
-This is intended as a **quick reference and poetic guide** about the beauty of **nature** — forests, mountains, rivers, and life itself.  
-See [John Gruber’s Markdown Spec](https://daringfireball.net/projects/markdown/) for more syntax details,  
-or just enjoy this green harmony of words and code.
-
-> _Every line of Markdown, like every leaf on a tree, connects to something greater._
+Природа — це вічне джерело натхнення, краси та спокою.  
+Вона дихає разом із нами, навчає гармонії та поваги до життя.
 
 ---
 
-## Table of Contents
-- [Headers](#headers)
-- [Emphasis](#emphasis)
-- [Lists](#lists)
-- [Links](#links)
-- [Images](#images)
-- [Code and Syntax Highlighting](#code-and-syntax-highlighting)
-- [Footnotes](#footnotes)
-- [Tables](#tables)
-- [Blockquotes](#blockquotes)
-- [Inline HTML](#inline-html)
-- [Horizontal Rule](#horizontal-rule)
-- [Line Breaks](#line-breaks)
-- [YouTube Videos](#youtube-videos)
+## Зміст
+1. [Заголовки](#заголовки)
+2. [Виділення тексту](#виділення-тексту)
+3. [Списки](#списки)
+4. [Посилання](#посилання)
+5. [Зображення](#зображення)
+6. [Код](#код)
+7. [Виноски](#виноски)
+8. [Таблиці](#таблиці)
+9. [Цитати](#цитати)
+10. [HTML](#html)
+11. [Горизонтальні лінії](#горизонтальні-лінії)
+12. [Розриви рядків](#розриви-рядків)
+13. [YouTube Відео](#youtube-відео)
 
 ---
 
-## Headers
+## Заголовки
 
-# 🌳 The Forest
-## 🌊 The River
-### 🏔️ The Mountain
-#### 🌼 The Meadow
-##### 🦋 The Insect
-###### 🌙 The Night
+# H1 — Гори
+## H2 — Ліси
+### H3 — Річки
+#### H4 — Озера
+##### H5 — Квіти
+###### H6 — Комахи
 
-Alternatively, for H1 and H2, you can use underline-style:
+Альтернативний стиль:
 
 Alt-H1
 ======
@@ -44,80 +41,68 @@ Alt-H2
 
 ---
 
-## Emphasis
+## Виділення тексту
 
-Emphasis, aka *italics*, with *leaves dancing* or _raindrops falling_.  
+*Італік про шелест листя.*
 
-Strong emphasis, aka **bold**, with **thunder rolling through the valley**.  
+**Жирний текст про велич гір.**
 
-Combined emphasis with **mountains and _rivers_ together**.  
+**Комбінований _текст_ про роси на траві.**
 
-Strikethrough uses two tildes. ~~Cutting down the forest.~~
-
----
-
-## Lists
-
-1. Walk into the forest  
-2. Listen to the wind  
-   * Hear the river whisper  
-   * Watch a bird fly  
-3. Feel the sunlight through the trees  
-
-* Unordered list can use asterisks  
-- Or minuses  
-+ Or pluses  
-
-Example in nature form:
-
-* 🌿 Trees  
-* 🌺 Flowers  
-* 🐝 Bees  
-* 🌾 Fields  
+~~Видалений текст~~ (бо сніг розтанув ).
 
 ---
 
-## Links
+## Списки
 
-[Listen to the forest sounds](https://www.youtube.com/watch?v=OdIJ2x3nxzQ "Relaxing forest soundscape")  
+1. Гори
+2. Ліси  
+   - Дубові  
+   - Соснові  
+3. Озера  
+   1. Байкал  
+   2. Синевир  
+4. Пустелі  
 
-Or learn about [wildlife preservation](https://www.worldwildlife.org).  
-
-Check out [the Water Cycle on Wikipedia][water-link].
-
-URLs like <https://earth.google.com> also turn into clickable links.
-
-[water-link]: https://en.wikipedia.org/wiki/Water_cycle
+* Тварини
+- Птахи
++ Комахи
 
 ---
 
-## Images
+## Посилання
+
+[Довідка про екологію](https://www.worldwildlife.org "WWF — захист природи")  
+[Посилання на Вікіпедію про природу][wiki]
+
+<https://www.nationalgeographic.com>
+
+[wiki]: https://uk.wikipedia.org/wiki/Природа
+
+---
+
+## Зображення
+
+Ось краєвид природи:
 
 Inline-style:  
-![Forest Sunrise](https://upload.wikimedia.org/wikipedia/commons/2/21/Sunrise_over_mountains.jpg "Morning over the Mountains")
+![Гори](https://upload.wikimedia.org/wikipedia/commons/6/6e/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg "Велич гір")
 
 Reference-style:  
-![River Flow][river]
+![Ліс][forest]
 
-[river]: https://upload.wikimedia.org/wikipedia/commons/f/f2/Forest_path_in_Belarus.jpg "Quiet River Path"
+[forest]: https://upload.wikimedia.org/wikipedia/commons/5/57/Fir_forest.jpg "Зелений ліс"
 
 ---
 
-## Code and Syntax Highlighting
+## Код
 
-Code blocks are part of Markdown —  
-and nature, too, can be described in **Python** 🐍.
+Природа має свою логіку, навіть у коді 
 
-Inline `code` shows small examples: `print("The forest breathes")`.
-
-Blocks of code are fenced with triple backticks:
+`const forest = "alive";`
 
 ```python
-# Simple Python code about nature
-
-elements = ["earth", "water", "fire", "air"]
-
-for e in elements:
-    print(f"The element {e.upper()} keeps the world alive.")
-
-print("And balance is the key to all life.")
+# Приклад на Python
+animals = ["вовк", "олень", "лисиця"]
+for a in animals:
+    print(f"У лісі живе {a}")
